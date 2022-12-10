@@ -1,0 +1,15 @@
+D:\projetos\clean-arch-web-api\DigitalAccount\Infra.Repository\bin\Debug\net7.0\Infra.Repository.deps.json
+D:\projetos\clean-arch-web-api\DigitalAccount\Infra.Repository\bin\Debug\net7.0\Infra.Repository.dll
+D:\projetos\clean-arch-web-api\DigitalAccount\Infra.Repository\bin\Debug\net7.0\Infra.Repository.pdb
+D:\projetos\clean-arch-web-api\DigitalAccount\Infra.Repository\bin\Debug\net7.0\Domain.dll
+D:\projetos\clean-arch-web-api\DigitalAccount\Infra.Repository\bin\Debug\net7.0\Domain.pdb
+D:\projetos\clean-arch-web-api\DigitalAccount\Infra.Repository\obj\Debug\net7.0\Infra.Repository.csproj.AssemblyReference.cache
+D:\projetos\clean-arch-web-api\DigitalAccount\Infra.Repository\obj\Debug\net7.0\Infra.Repository.GeneratedMSBuildEditorConfig.editorconfig
+D:\projetos\clean-arch-web-api\DigitalAccount\Infra.Repository\obj\Debug\net7.0\Infra.Repository.AssemblyInfoInputs.cache
+D:\projetos\clean-arch-web-api\DigitalAccount\Infra.Repository\obj\Debug\net7.0\Infra.Repository.AssemblyInfo.cs
+D:\projetos\clean-arch-web-api\DigitalAccount\Infra.Repository\obj\Debug\net7.0\Infra.Repository.csproj.CoreCompileInputs.cache
+D:\projetos\clean-arch-web-api\DigitalAccount\Infra.Repository\obj\Debug\net7.0\Infra.Repository.csproj.CopyComplete
+D:\projetos\clean-arch-web-api\DigitalAccount\Infra.Repository\obj\Debug\net7.0\Infra.Repository.dll
+D:\projetos\clean-arch-web-api\DigitalAccount\Infra.Repository\obj\Debug\net7.0\refint\Infra.Repository.dll
+D:\projetos\clean-arch-web-api\DigitalAccount\Infra.Repository\obj\Debug\net7.0\Infra.Repository.pdb
+D:\projetos\clean-arch-web-api\DigitalAccount\Infra.Repository\obj\Debug\net7.0\ref\Infra.Repository.dll

@@ -223,6 +223,14 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Extensions.FluentValidation.Br": {
+              "target": "Package",
+              "version": "[1.0.2, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.4.0, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[7.0.0, )"

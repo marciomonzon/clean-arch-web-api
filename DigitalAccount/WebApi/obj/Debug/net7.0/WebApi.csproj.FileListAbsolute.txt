@@ -37,3 +37,5 @@ D:\projetos\clean-arch-web-api\DigitalAccount\WebApi\obj\Debug\net7.0\refint\Web
 D:\projetos\clean-arch-web-api\DigitalAccount\WebApi\obj\Debug\net7.0\WebApi.pdb
 D:\projetos\clean-arch-web-api\DigitalAccount\WebApi\obj\Debug\net7.0\WebApi.genruntimeconfig.cache
 D:\projetos\clean-arch-web-api\DigitalAccount\WebApi\obj\Debug\net7.0\ref\WebApi.dll
+D:\projetos\clean-arch-web-api\DigitalAccount\WebApi\bin\Debug\net7.0\FluentValidation.dll
+D:\projetos\clean-arch-web-api\DigitalAccount\WebApi\bin\Debug\net7.0\FluentValidation.Extensions.Br.dll

@@ -2,7 +2,10 @@
 using Application.UseCases.AddCustomer;
 using Domain.Contracts.Repositories.AddCustomer;
 using Domain.Contracts.UseCases.AddCustomer;
+using FluentValidation;
 using Infra.Repository.Repositories.AddCustomer;
+using System.Globalization;
+using WebApi.Models.AddCustomer;
 
 namespace WebApi
 {
@@ -15,6 +18,7 @@ namespace WebApi
             // Add services to the container.
             builder.Services.AddScoped<IAddCustomerUserCase, AddCustomerUseCase>();
             builder.Services.AddScoped<IAddCustomerRepository, AddCustomerRepository>();
+            builder.Services.AddTransient<IValidator<AddCostumerInput>, AddCustomerInputValidator>();
 
 
             builder.Services.AddControllers();
@@ -35,6 +39,10 @@ namespace WebApi
 
 
             app.MapControllers();
+
+            var cultureInfo = new CultureInfo("pt-BR");
+            CultureInfo.DefaultThreadCurrentCulture = cultureInfo;
+            CultureInfo.DefaultThreadCurrentUICulture = cultureInfo;
 
             app.Run();
         }

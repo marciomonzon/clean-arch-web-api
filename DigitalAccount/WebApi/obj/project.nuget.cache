@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "hDERQd2Z0yjlEv88y3UoD7jmlPaNoiDFIYD0WW5Q2UzFnif7ir64vXX/OT1L1FPgPN+wcZ5lTuc8kzqRJyZyJA==",
+  "dgSpecHash": "pTQci+7o6rFyGEpxGqTNpoctjfCmS1B7pWVrW+8qgghQcvpKJRwgIOaqCB/caHdS87u995XyTwh1p2k9Rko2nw==",
   "success": true,
   "projectFilePath": "D:\\projetos\\clean-arch-web-api\\DigitalAccount\\WebApi\\WebApi.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\marci\\.nuget\\packages\\extensions.fluentvalidation.br\\1.0.2\\extensions.fluentvalidation.br.1.0.2.nupkg.sha512",
+    "C:\\Users\\marci\\.nuget\\packages\\fluentvalidation\\11.4.0\\fluentvalidation.11.4.0.nupkg.sha512",
     "C:\\Users\\marci\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.0\\microsoft.aspnetcore.openapi.7.0.0.nupkg.sha512",
     "C:\\Users\\marci\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\marci\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",

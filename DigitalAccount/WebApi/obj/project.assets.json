@@ -2,6 +2,31 @@
   "version": 3,
   "targets": {
     "net7.0": {
+      "Extensions.FluentValidation.Br/1.0.2": {
+        "type": "package",
+        "dependencies": {
+          "FluentValidation": "10.0.4"
+        },
+        "compile": {
+          "lib/netstandard2.0/FluentValidation.Extensions.Br.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/FluentValidation.Extensions.Br.dll": {}
+        }
+      },
+      "FluentValidation/11.4.0": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/FluentValidation.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/FluentValidation.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.AspNetCore.OpenApi/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -147,6 +172,41 @@
     }
   },
   "libraries": {
+    "Extensions.FluentValidation.Br/1.0.2": {
+      "sha512": "ZVoXpIFkUhufHoO3/MkdIMZU0+8Mjy1K9TNd0zroT/J92SqU8V/ryZqVn4Mdbeq2aAC5yrtAhowg8Vd+FjSCSw==",
+      "type": "package",
+      "path": "extensions.fluentvalidation.br/1.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "extensions.fluentvalidation.br.1.0.2.nupkg.sha512",
+        "extensions.fluentvalidation.br.nuspec",
+        "lib/netstandard2.0/FluentValidation.Extensions.Br.dll"
+      ]
+    },
+    "FluentValidation/11.4.0": {
+      "sha512": "WZJyrNf4suiaI6avVG32W9kmBLC3+V5rDTcLeRJjeU4tDmTyDIOz1459DzCKppXs34YpZg9rCUzDY3M4XxG7Ug==",
+      "type": "package",
+      "path": "fluentvalidation/11.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "fluent-validation-icon.png",
+        "fluentvalidation.11.4.0.nupkg.sha512",
+        "fluentvalidation.nuspec",
+        "lib/net5.0/FluentValidation.dll",
+        "lib/net5.0/FluentValidation.xml",
+        "lib/net6.0/FluentValidation.dll",
+        "lib/net6.0/FluentValidation.xml",
+        "lib/net7.0/FluentValidation.dll",
+        "lib/net7.0/FluentValidation.xml",
+        "lib/netstandard2.0/FluentValidation.dll",
+        "lib/netstandard2.0/FluentValidation.xml",
+        "lib/netstandard2.1/FluentValidation.dll",
+        "lib/netstandard2.1/FluentValidation.xml"
+      ]
+    },
     "Microsoft.AspNetCore.OpenApi/7.0.0": {
       "sha512": "P1mkNhZ3IwU3phNLIUkgqVXb1exnooTalIYwpSON3oKKkcRtACDgS4WpO+xnwFw4KzV0bmgkUqB3acXxIefvvg==",
       "type": "package",
@@ -508,6 +568,8 @@
     "net7.0": [
       "Application >= 1.0.0",
       "Domain >= 1.0.0",
+      "Extensions.FluentValidation.Br >= 1.0.2",
+      "FluentValidation >= 11.4.0",
       "Infra.Repository >= 1.0.0",
       "Microsoft.AspNetCore.OpenApi >= 7.0.0",
       "Swashbuckle.AspNetCore >= 6.4.0"
@@ -562,6 +624,14 @@
       "net7.0": {
         "targetAlias": "net7.0",
         "dependencies": {
+          "Extensions.FluentValidation.Br": {
+            "target": "Package",
+            "version": "[1.0.2, )"
+          },
+          "FluentValidation": {
+            "target": "Package",
+            "version": "[11.4.0, )"
+          },
           "Microsoft.AspNetCore.OpenApi": {
             "target": "Package",
             "version": "[7.0.0, )"

@@ -39,3 +39,10 @@ D:\projetos\clean-arch-web-api\DigitalAccount\WebApi\obj\Debug\net7.0\WebApi.gen
 D:\projetos\clean-arch-web-api\DigitalAccount\WebApi\obj\Debug\net7.0\ref\WebApi.dll
 D:\projetos\clean-arch-web-api\DigitalAccount\WebApi\bin\Debug\net7.0\FluentValidation.dll
 D:\projetos\clean-arch-web-api\DigitalAccount\WebApi\bin\Debug\net7.0\FluentValidation.Extensions.Br.dll
+D:\projetos\clean-arch-web-api\DigitalAccount\WebApi\bin\Debug\net7.0\Dapper.dll
+D:\projetos\clean-arch-web-api\DigitalAccount\WebApi\bin\Debug\net7.0\System.Data.SqlClient.dll
+D:\projetos\clean-arch-web-api\DigitalAccount\WebApi\bin\Debug\net7.0\runtimes\win-arm64\native\sni.dll
+D:\projetos\clean-arch-web-api\DigitalAccount\WebApi\bin\Debug\net7.0\runtimes\win-x64\native\sni.dll
+D:\projetos\clean-arch-web-api\DigitalAccount\WebApi\bin\Debug\net7.0\runtimes\win-x86\native\sni.dll
+D:\projetos\clean-arch-web-api\DigitalAccount\WebApi\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\projetos\clean-arch-web-api\DigitalAccount\WebApi\bin\Debug\net7.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll

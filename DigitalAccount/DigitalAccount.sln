@@ -7,9 +7,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi", "WebApi\WebApi.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Domain\Domain.csproj", "{7DCF3D75-BEAD-47AD-905A-2D4669EB5C4D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{1F2C83FF-5AD7-433F-95FA-F67D375ECDCF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application", "Application\Application.csproj", "{1F2C83FF-5AD7-433F-95FA-F67D375ECDCF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infra.Repository", "Infra.Repository\Infra.Repository.csproj", "{65D9DA47-F7B6-4792-825C-E1E86B97B145}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infra.Repository", "Infra.Repository\Infra.Repository.csproj", "{65D9DA47-F7B6-4792-825C-E1E86B97B145}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8723DF49-F965-4772-A4FC-E4CD33ED9CA9}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

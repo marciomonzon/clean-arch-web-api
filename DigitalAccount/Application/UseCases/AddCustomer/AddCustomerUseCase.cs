@@ -15,6 +15,7 @@ namespace Application.UseCases.AddCustomer
 
         public void AddCustomer(Customer customer)
         {
+            _addCustomerRepository.AddCustomer(customer);
         }
     }
 }
